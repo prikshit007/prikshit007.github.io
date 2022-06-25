@@ -8,7 +8,7 @@ import Resume from './Resume.pdf'
 
 const Services=()=>{
     return(
-        <div className="services">
+        <div className="services" id="Services">
             <div className="awesome">
                 <span>My Awesome</span>
                 <span>services</span>
@@ -21,13 +21,13 @@ const Services=()=>{
             </div>
             <div className="cards">
                 <div style={{left:"19rem"}}>
-                <Card emoji={heartemoji} heading="Developer" detail="Prikshit is Great" ></Card>
+                <Card emoji={heartemoji} heading="Software Developer" detail="Prikshit is Great" ></Card>
                 </div>
                 <div style={{top:"12rem",left:"-4rem"}}>
-                <Card emoji={glassesimoji} heading="Developer" detail="Prikshit is Great" ></Card>
+                <Card emoji={glassesimoji} heading="Frontend Developer" detail="Html, Css, JavaScript, React, Nodejs, Express" ></Card>
                 </div>
                 <div style={{top:"19rem",left:"12rem"}}>
-                <Card emoji={humble} heading="Developer" detail="Prikshit is Great" ></Card>
+                <Card emoji={humble} heading="UI/UX" detail="Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd" ></Card>
                 </div>
             </div>
         </div>

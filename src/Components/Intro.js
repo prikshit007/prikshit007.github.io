@@ -11,6 +11,8 @@ import Crown from "../img/crown.png";
 import Thumbup from "../img/thumbup.png";
 import glassesemoji from "../img/glassesimoji.png";
 
+import {Link} from "react-scroll";
+
 
 const Intro=()=>{
     return(
@@ -24,11 +26,19 @@ const Intro=()=>{
                         quality work
                     </span>
                 </div>
+                <Link to="contact" spy={true} smooth={true}>
                 <button className="button i-button">Hire Me</button>
+                </Link>
                 <div className="i-icons">
+                    <a href="https://github.com/prikshit007" target="blank">
                     <img src={Github}></img>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prikshit-gupta-4514951b4/" target="blank">
                     <img src={Linkedin}></img>
+                    </a>
+                    <a>
                     <img src={Instagram}></img>
+                    </a>
                 </div>
             </div>
             <div className="i-right">
