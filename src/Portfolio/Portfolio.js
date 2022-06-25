@@ -14,7 +14,9 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span>Recent Projects</span>
+      <a href="https://prikshit007.github.io/">
       <span>Portfolio</span>
+      </a>
 
       {/* slider */}
       <Swiper
