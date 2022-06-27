@@ -42,3 +42,6 @@
     color: orange;
     border: 1px solid orange;
 }
+.n-right li a{
+    text-decoration: none;
+}

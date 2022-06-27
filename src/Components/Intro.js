@@ -11,7 +11,7 @@ import Crown from "../img/crown.png";
 import Thumbup from "../img/thumbup.png";
 import glassesemoji from "../img/glassesimoji.png";
 
-import {Link} from "react-scroll";
+import { Link } from "react-router-dom";
 
 
 const Intro=()=>{
@@ -26,7 +26,7 @@ const Intro=()=>{
                         quality work
                     </span>
                 </div>
-                <Link to="contact" spy={true} smooth={true}>
+                <Link to="/contact" spy={true} smooth={true}>
                 <button className="button i-button">Hire Me</button>
                 </Link>
                 <div className="i-icons">
